@@ -1,0 +1,89 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A7961;
+  padding: 10px 20px;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 30px;
+  margin-right: 80px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  color: #ffd700;
+}
+
+.container {
+    height: 100%;
+    display: flex; /* Add this */
+    justify-content: flex-start; /* Move the watch to the left */
+    align-items: center; /* Center the watch vertically */
+    overflow: hidden; /* Hide any overflowing content */
+    padding-left: 0px; /* Add some left padding */
+    
+    background-color: #66867e;
+     
+    
+}
+
+.text {
+    flex: 1; /* Add this */
+    padding: 0 50px; /* Adjust padding as needed */
+    text-align: right; /* Align text to the right */
+    align-items: center; /* Add this */
+}
+
+h1 {
+    font-size: 49px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.watch {
+    width: calc(50vw - 10px); /* Adjusted width to account for padding */
+    height: 80vh; /* 100% of viewport height */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+.mysection {
+  background-color: rgb(243, 183, 183);
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }

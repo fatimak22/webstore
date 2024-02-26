@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav a {
+  color: rgb(43, 33, 33);
+  text-decoration: none;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+}
+
+.main {
+  background-color: #1A7961;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items to the center */
+  padding: 10px 20px;
+  height: 600px;
+  
+}
+
+.main-content {
+  flex: 3;
+  margin-right: 50px;
+  margin-left: 10%;
+  
+}
+
+.main h1 {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  width: 80%;
+
+}
+
+.main p {
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+  width: 80%;
+}
+
+.main img {
+  width: 400px;
+  width: 30;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10%;
+}
+
+.section {
+  background: #F6F5F5;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section h2 {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+.section img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  margin: 20px;
+  border-radius: 50%;
+  
+  
+  background-color:#E1E1E1; 
+  padding: 10px; 
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A7961;
+  padding: 10px 20px;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 30px;
+  margin-right: 80px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  color: #ffd700;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: normal;
+  padding: 0px;
+  margin: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: gray;
+  
+}
+
+.products img {
+  margin: 0 200px;
+}
+
+
+.footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
